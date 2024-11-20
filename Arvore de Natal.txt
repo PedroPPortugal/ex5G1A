@@ -1,0 +1,22 @@
+Algoritmo ArvoreDeNatal
+
+
+INÍCIO
+
+Escrever "Digite o tamanho da árvore:"
+LÊ tamanho
+
+SE tamanho > 0 ENTÃO
+    PARA i DE 1 ATÉ tamanho FAÇA
+        // Calcula a quantidade de espaços à esquerda
+        espacos ← tamanho - i
+        // Calcula a quantidade de '#' na linha
+        degraus ← i
+        // Imprime os espaços seguidos dos degraus
+      Escrever( " " * espacos + "#" * degraus)
+    FIM PARA
+SENÃO
+    Escrever"Por favor, insira um número inteiro positivo."
+FIM SE
+
+FIM
